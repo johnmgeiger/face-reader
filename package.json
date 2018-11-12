@@ -1,0 +1,22 @@
+{
+  "name": "face-reader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/johnmgeiger/face-reader.git",
+  "author": "Johnathan Geiger <johnmgeiger@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-env": "^7.1.5"
+  },
+  "resolutions": {
+    "babel-core": "7.0.0-bridge.0"
+  }
+}
